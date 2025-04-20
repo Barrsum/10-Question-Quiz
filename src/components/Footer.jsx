@@ -3,7 +3,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './Footer.css';
 
-const GITHUB_REPO_URL = "https://github.com/YOUR_USERNAME/10-question-quiz";
+const GITHUB_REPO_URL = "https://github.com/Barrsum/10-Question-Quiz.git";
 const LINKEDIN_URL = "https://www.linkedin.com/in/ram-bapat-barrsum-diamos";
 
 function Footer() {
