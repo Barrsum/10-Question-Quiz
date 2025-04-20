@@ -1,0 +1,428 @@
+[
+    {
+      "category": "Math",
+      "question": "What is the value of 15% of 200?",
+      "options": ["15", "30", "25", "35"],
+      "correctAnswer": "30"
+    },
+    {
+      "category": "Math",
+      "question": "If a rectangle has a length of 8 cm and a width of 5 cm, what is its area?",
+      "options": ["13 sq cm", "26 sq cm", "40 sq cm", "30 sq cm"],
+      "correctAnswer": "40 sq cm"
+    },
+    {
+      "category": "Math",
+      "question": "What is the next number in the sequence: 3, 6, 9, 12, ...?",
+      "options": ["14", "15", "16", "18"],
+      "correctAnswer": "15"
+    },
+    {
+      "category": "Math",
+      "question": "Simplify the expression: 3x + 5 - x + 2",
+      "options": ["3x + 7", "4x + 7", "2x + 7", "2x + 3"],
+      "correctAnswer": "2x + 7"
+    },
+    {
+      "category": "Math",
+      "question": "How many degrees are in a right angle?",
+      "options": ["45", "90", "180", "360"],
+      "correctAnswer": "90"
+    },
+    {
+      "category": "Math",
+      "question": "What is the square root of 144?",
+      "options": ["10", "11", "12", "14"],
+      "correctAnswer": "12"
+    },
+    {
+      "category": "Math",
+      "question": "If a train travels 120 km in 2 hours, what is its average speed?",
+      "options": ["50 km/h", "60 km/h", "100 km/h", "240 km/h"],
+      "correctAnswer": "60 km/h"
+    },
+    {
+      "category": "Math",
+      "question": "What is 7 multiplied by 9?",
+      "options": ["56", "63", "72", "54"],
+      "correctAnswer": "63"
+    },
+     {
+      "category": "Math",
+      "question": "What is the formula for the circumference of a circle?",
+      "options": ["πr²", "2πr", "πd²", "½bh"],
+      "correctAnswer": "2πr"
+    },
+    {
+      "category": "Math",
+      "question": "If you buy an item for ₹80 and sell it for ₹100, what is the profit percentage?",
+      "options": ["20%", "25%", "15%", "30%"],
+      "correctAnswer": "25%"
+    },
+  
+    {
+      "category": "Science",
+      "question": "What is the chemical symbol for Gold?",
+      "options": ["Go", "Ag", "Au", "Gd"],
+      "correctAnswer": "Au"
+    },
+    {
+      "category": "Science",
+      "question": "Which gas do plants primarily absorb from the atmosphere for photosynthesis?",
+      "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+      "correctAnswer": "Carbon Dioxide"
+    },
+    {
+      "category": "Science",
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Nucleus", "Ribosome", "Mitochondrion", "Cell Membrane"],
+      "correctAnswer": "Mitochondrion"
+    },
+    {
+      "category": "Science",
+      "question": "What force keeps planets in orbit around the sun?",
+      "options": ["Magnetism", "Friction", "Gravity", "Nuclear Force"],
+      "correctAnswer": "Gravity"
+    },
+    {
+      "category": "Science",
+      "question": "What is the hardest naturally occurring substance on Earth?",
+      "options": ["Quartz", "Topaz", "Diamond", "Corundum"],
+      "correctAnswer": "Diamond"
+    },
+     {
+      "category": "Science",
+      "question": "What instrument is used to measure atmospheric pressure?",
+      "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"],
+      "correctAnswer": "Barometer"
+    },
+    {
+      "category": "Science",
+      "question": "What is the boiling point of water at standard atmospheric pressure?",
+      "options": ["90°C", "100°C", "110°C", "0°C"],
+      "correctAnswer": "100°C"
+    },
+    {
+      "category": "Science",
+      "question": "Which element has the atomic number 1?",
+      "options": ["Helium", "Oxygen", "Hydrogen", "Carbon"],
+      "correctAnswer": "Hydrogen"
+    },
+    {
+      "category": "Science",
+      "question": "What theory explains the origin of the universe from a single point?",
+      "options": ["String Theory", "Theory of Relativity", "Big Bang Theory", "Quantum Mechanics"],
+      "correctAnswer": "Big Bang Theory"
+    },
+    {
+      "category": "Science",
+      "question": "Which vitamin is primarily obtained from sunlight exposure?",
+      "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B12"],
+      "correctAnswer": "Vitamin D"
+    },
+  
+    {
+      "category": "History",
+      "question": "Who was the first Emperor of the Maurya Dynasty in India?",
+      "options": ["Ashoka", "Bindusara", "Chandragupta Maurya", "Samudragupta"],
+      "correctAnswer": "Chandragupta Maurya"
+    },
+    {
+      "category": "History",
+      "question": "The ancient city of Mohenjo-daro is located in which modern-day country?",
+      "options": ["India", "Pakistan", "Afghanistan", "Nepal"],
+      "correctAnswer": "Pakistan"
+    },
+    {
+      "category": "History",
+      "question": "In which year did India gain independence from British rule?",
+      "options": ["1945", "1947", "1950", "1942"],
+      "correctAnswer": "1947"
+    },
+     {
+      "category": "History",
+      "question": "Who is known as the 'Father of the Indian Constitution'?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Dr. B.R. Ambedkar"],
+      "correctAnswer": "Dr. B.R. Ambedkar"
+    },
+    {
+      "category": "History",
+      "question": "The Battle of Plassey (1757) was a decisive victory for which colonial power in India?",
+      "options": ["French East India Company", "Dutch East India Company", "British East India Company", "Portuguese Empire"],
+      "correctAnswer": "British East India Company"
+    },
+    {
+      "category": "History",
+      "question": "Which Mughal emperor built the Taj Mahal?",
+      "options": ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+      "correctAnswer": "Shah Jahan"
+    },
+    {
+      "category": "History",
+      "question": "The Renaissance, a period of great artistic and intellectual activity, began in which European country?",
+      "options": ["France", "England", "Italy", "Spain"],
+      "correctAnswer": "Italy"
+    },
+    {
+      "category": "History",
+      "question": "Who was the leader of the Bolshevik Revolution in Russia?",
+      "options": ["Joseph Stalin", "Leon Trotsky", "Vladimir Lenin", "Tsar Nicholas II"],
+      "correctAnswer": "Vladimir Lenin"
+    },
+    {
+      "category": "History",
+      "question": "The Magna Carta, signed in 1215, limited the power of the monarch in which country?",
+      "options": ["France", "Germany", "England", "Spain"],
+      "correctAnswer": "England"
+    },
+    {
+      "category": "History",
+      "question": "Which ancient civilization built the pyramids at Giza?",
+      "options": ["Roman", "Greek", "Mesopotamian", "Egyptian"],
+      "correctAnswer": "Egyptian"
+    },
+  
+    {
+      "category": "Grammar",
+      "question": "Choose the correct spelling:",
+      "options": ["Separate", "Seperate", "Saperate", "Separete"],
+      "correctAnswer": "Separate"
+    },
+    {
+      "category": "Grammar",
+      "question": "Which sentence uses 'its' and 'it's' correctly?",
+      "options": ["The dog wagged it's tail when its happy.", "The dog wagged its tail when it's happy.", "The dog wagged it's tail when it's happy.", "The dog wagged its tail when its happy."],
+      "correctAnswer": "The dog wagged its tail when it's happy."
+    },
+    {
+      "category": "Grammar",
+      "question": "What is the plural form of 'child'?",
+      "options": ["Childs", "Childes", "Children", "Childen"],
+      "correctAnswer": "Children"
+    },
+     {
+      "category": "Grammar",
+      "question": "Identify the adjective in the sentence: 'The quick brown fox jumps over the lazy dog.'",
+      "options": ["quick", "jumps", "over", "dog"],
+      "correctAnswer": "quick"
+    },
+    {
+      "category": "Grammar",
+      "question": "Which of the following is a coordinating conjunction?",
+      "options": ["Although", "Because", "And", "While"],
+      "correctAnswer": "And"
+    },
+    {
+      "category": "Grammar",
+      "question": "What punctuation mark is typically used to introduce a list?",
+      "options": ["Semicolon (;)", "Comma (,)", "Period (.)", "Colon (:)"],
+      "correctAnswer": "Colon (:)"
+    },
+    {
+      "category": "Grammar",
+      "question": "Which word is a synonym for 'happy'?",
+      "options": ["Sad", "Angry", "Joyful", "Tired"],
+      "correctAnswer": "Joyful"
+    },
+     {
+      "category": "Grammar",
+      "question": "'To run quickly' is an example of what?",
+      "options": ["Noun phrase", "Adjective phrase", "Adverb phrase", "Prepositional phrase"],
+      "correctAnswer": "Adverb phrase"
+    },
+    {
+      "category": "Grammar",
+      "question": "Choose the correct verb tense: 'She _____ to the store yesterday.'",
+      "options": ["go", "goes", "went", "gone"],
+      "correctAnswer": "went"
+    },
+    {
+      "category": "Grammar",
+      "question": "What is the comparative form of the adjective 'good'?",
+      "options": ["Gooder", "Goodest", "Better", "Best"],
+      "correctAnswer": "Better"
+    },
+  
+     {
+      "category": "Logical Reasoning",
+      "question": "Which number is the odd one out: 2, 4, 6, 7, 10?",
+      "options": ["4", "6", "7", "10"],
+      "correctAnswer": "7"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "Finger is to Hand as Leaf is to ____?",
+      "options": ["Tree", "Branch", "Flower", "Root"],
+      "correctAnswer": "Branch"
+    },
+     {
+      "category": "Logical Reasoning",
+      "question": "If FRIEND is coded as HUMJTK, how is CANDLE coded?",
+      "options": ["DEQJQM", "EDRJFM", "ESJFME", "FYOBMD"],
+      "correctAnswer": "EDRJFM"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "Pointing to a photograph, a man said, 'I have no brother or sister, but that man's father is my father's son.' Whose photograph was it?",
+      "options": ["His own", "His son's", "His father's", "His nephew's"],
+      "correctAnswer": "His son's"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "What comes next in the pattern: A, C, E, G, ___?",
+      "options": ["H", "I", "J", "K"],
+      "correctAnswer": "I"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "If 'Red' means 'Blue', 'Blue' means 'Green', 'Green' means 'Yellow', what colour is the clear sky?",
+      "options": ["Red", "Blue", "Green", "Yellow"],
+      "correctAnswer": "Green"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "Arrange the words in a meaningful order: 1. Police 2. Punishment 3. Crime 4. Judge 5. Judgement",
+      "options": ["3, 1, 4, 5, 2", "3, 1, 2, 4, 5", "1, 3, 4, 5, 2", "3, 1, 5, 4, 2"],
+      "correctAnswer": "3, 1, 4, 5, 2"
+    },
+     {
+      "category": "Logical Reasoning",
+      "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+      "options": ["0 degrees", "5 degrees", "7.5 degrees", "15 degrees"],
+      "correctAnswer": "7.5 degrees"
+    },
+    {
+      "category": "Logical Reasoning",
+      "question": "If all Bloops are Razzies and some Razzies are Snazzies, what can be definitely concluded?",
+      "options": ["All Bloops are Snazzies", "Some Bloops are Snazzies", "No Bloop is a Snazzy", "Some Razzies are Bloops"],
+      "correctAnswer": "Some Razzies are Bloops"
+    },
+     {
+      "category": "Logical Reasoning",
+      "question": "Find the missing number: 4, 9, 16, 25, ___?",
+      "options": ["30", "36", "49", "40"],
+      "correctAnswer": "36"
+    },
+  
+    {
+      "category": "Geography",
+      "question": "What is the capital city of India?",
+      "options": ["Mumbai", "Kolkata", "New Delhi", "Chennai"],
+      "correctAnswer": "New Delhi"
+    },
+    {
+      "category": "Geography",
+      "question": "Which is the longest river in India?",
+      "options": ["Godavari", "Yamuna", "Ganges (Ganga)", "Brahmaputra"],
+      "correctAnswer": "Ganges (Ganga)"
+    },
+    {
+      "category": "Geography",
+      "question": "The Himalayas are an example of which type of mountain range?",
+      "options": ["Volcanic", "Block", "Fold", "Dome"],
+      "correctAnswer": "Fold"
+    },
+     {
+      "category": "Geography",
+      "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+      "options": ["Haryana", "Punjab", "Gujarat", "Rajasthan"],
+      "correctAnswer": "Punjab"
+    },
+     {
+      "category": "Geography",
+      "question": "Kanchenjunga, the third highest mountain in the world, is located in which Indian state?",
+      "options": ["Himachal Pradesh", "Uttarakhand", "Sikkim", "Arunachal Pradesh"],
+      "correctAnswer": "Sikkim"
+    },
+    {
+      "category": "Geography",
+      "question": "What is the largest continent by land area?",
+      "options": ["Africa", "North America", "Asia", "South America"],
+      "correctAnswer": "Asia"
+    },
+    {
+      "category": "Geography",
+      "question": "Which desert is the largest hot desert in the world?",
+      "options": ["Gobi Desert", "Kalahari Desert", "Arabian Desert", "Sahara Desert"],
+      "correctAnswer": "Sahara Desert"
+    },
+    {
+      "category": "Geography",
+      "question": "What is the longest river in the world?",
+      "options": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
+      "correctAnswer": "Nile River"
+    },
+    {
+      "category": "Geography",
+      "question": "What is the capital of Australia?",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "category": "Geography",
+      "question": "Which imaginary line divides the Earth into the Northern and Southern Hemispheres?",
+      "options": ["Prime Meridian", "Tropic of Cancer", "Equator", "Arctic Circle"],
+      "correctAnswer": "Equator"
+    },
+  
+    {
+      "category": "General Knowledge",
+      "question": "Which festival is known as the 'Festival of Lights' in India?",
+      "options": ["Holi", "Diwali", "Eid", "Navratri"],
+      "correctAnswer": "Diwali"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Michelangelo", "Raphael", "Donatello", "Leonardo da Vinci"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "What is the currency of Japan?",
+      "options": ["Won", "Yuan", "Yen", "Dollar"],
+      "correctAnswer": "Yen"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "Which is the national animal of India?",
+      "options": ["Lion", "Elephant", "Tiger", "Peacock"],
+      "correctAnswer": "Tiger"
+    },
+     {
+      "category": "General Knowledge",
+      "question": "In which sport is the term 'Ashes' famously contested between England and Australia?",
+      "options": ["Rugby", "Football", "Cricket", "Tennis"],
+      "correctAnswer": "Cricket"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "Who wrote the Indian national anthem, 'Jana Gana Mana'?",
+      "options": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Subhas Chandra Bose", "Sarojini Naidu"],
+      "correctAnswer": "Rabindranath Tagore"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "What does 'CPU' stand for in computing?",
+      "options": ["Central Processing Unit", "Computer Personal Unit", "Central Program Utility", "Control Process Unit"],
+      "correctAnswer": "Central Processing Unit"
+    },
+     {
+      "category": "General Knowledge",
+      "question": "How many players are there in a standard basketball team on the court at one time?",
+      "options": ["5", "6", "7", "11"],
+      "correctAnswer": "5"
+    },
+     {
+      "category": "General Knowledge",
+      "question": "What is the main language spoken in Brazil?",
+      "options": ["Spanish", "English", "French", "Portuguese"],
+      "correctAnswer": "Portuguese"
+    },
+    {
+      "category": "General Knowledge",
+      "question": "Which Indian city is famous for its Information Technology industry, often called 'Silicon Valley of India'?",
+      "options": ["Hyderabad", "Pune", "Bengaluru (Bangalore)", "Gurgaon"],
+      "correctAnswer": "Bengaluru (Bangalore)"
+    }
+  ]

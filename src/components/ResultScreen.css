@@ -1,0 +1,76 @@
+/* src/components/ResultScreen.css */
+
+/* Base layout uses .overlay-screen from App.css */
+
+.result-screen .trophy-container {
+    margin: 1.5rem 0;
+    animation: bounceIn 0.8s ease-out;
+  }
+  
+  .result-screen .trophy-icon {
+    font-size: 5rem;
+    display: block;
+    margin: 0 auto 0.5rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  }
+  [data-theme='dark'] .result-screen .trophy-icon {
+     filter: drop-shadow(0 4px 8px rgba(255, 255, 255, 0.2));
+  }
+  
+  .result-screen .trophy-icon.gold { color: var(--trophy-gold); }
+  .result-screen .trophy-icon.silver { color: var(--trophy-silver); }
+  .result-screen .trophy-icon.bronze { color: var(--trophy-bronze); }
+  
+  .result-screen .trophy-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: inherit; /* Inherit color from container */
+    margin-bottom: 1.5rem;
+  }
+  
+  .result-screen .final-score,
+  .result-screen .lives-remaining {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.8rem;
+  }
+  .result-screen .final-score strong,
+  .result-screen .lives-remaining strong {
+      color: var(--text-primary);
+      font-weight: 700;
+  }
+  .result-screen .lives-remaining strong {
+      margin-right: 0.3em;
+  }
+  
+  /* Tab Switch Warning style is inherited from App.css */
+  /* .switched-tab-warning { ... } */
+  
+  
+  .result-screen .restart-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* Sizing and theme styles inherited from .overlay-screen button and .action-button in App.css */
+  }
+  
+  @keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.1); opacity: 1; }
+    80% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+  
+  @media (max-width: 600px) {
+      .result-screen .trophy-icon {
+          font-size: 4rem;
+      }
+      .result-screen .trophy-text {
+          font-size: 1.1rem;
+      }
+       .result-screen .final-score,
+       .result-screen .lives-remaining {
+         font-size: 1rem;
+       }
+      /* Responsive button sizing inherited from App.css */
+  }

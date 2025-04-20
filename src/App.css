@@ -1,0 +1,289 @@
+/* src/App.css */
+
+/* --- Basic Modal Styling (Format Modal) --- */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  animation: fadeInBackdrop 0.3s ease-out;
+}
+
+.modal-content {
+  background-color: var(--modal-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--modal-shadow);
+  max-width: 90%;
+  width: 550px;
+  max-height: 85vh;
+  overflow-y: auto;
+  color: var(--text-primary);
+  position: relative;
+  animation: zoomInModal 0.3s ease-out;
+}
+
+.modal-content h2 {
+  color: var(--accent-color);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.modal-content p,
+.modal-content li {
+    color: var(--text-secondary);
+    margin-bottom: 0.8rem;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+.modal-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+.modal-content li {
+    padding-left: 1.5em;
+    position: relative;
+    margin-bottom: 1em;
+}
+.modal-content li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.modal-content strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.modal-content button.action-button {
+  display: block;
+  margin: 1.5rem auto 0;
+  min-width: 150px;
+}
+
+@keyframes fadeInBackdrop {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomInModal {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@media (max-width: 600px) {
+    .modal-content { width: 90%; padding: 1.5rem; }
+    .modal-content h2 { font-size: 1.5rem; }
+    .modal-content p, .modal-content li { font-size: 1rem; }
+}
+
+/* --- Shared Styles for Overlay Screens (Pause, Result, GameOver) --- */
+.overlay-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem; /* More padding */
+    background-color: var(--background-secondary);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 550px; /* Slightly wider overlays */
+    width: 90%;
+    margin: 2rem auto;
+    border: 1px solid var(--border-color);
+    animation: fadeIn 0.5s ease-out;
+}
+
+[data-theme='dark'] .overlay-screen {
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.08);
+}
+
+.overlay-screen h2 {
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.8rem, 5vw, 2.2rem);
+}
+
+.overlay-screen p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+.overlay-screen p strong {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+/* Game Over Icon */
+.gameover-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Button Grouping and Sizing in Overlays */
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Button Size Fix for Desktop Overlays */
+.overlay-screen button {
+    padding: 0.8em 1.8em;
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    /* Adjust growth/size */
+    flex-grow: 0; /* Don't allow buttons to grow excessively */
+    flex-basis: auto; /* Let content determine base size */
+    min-width: 140px; /* Set a reasonable minimum */
+    max-width: 280px; /* Set a max to prevent huge buttons */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* Ensure single buttons also adhere to sizing */
+.overlay-screen > button.action-button,
+.overlay-screen > button.secondary-button {
+     flex-grow: 0;
+     flex-basis: auto;
+     min-width: 140px;
+     max-width: 280px;
+     margin-top: 1.5rem; /* Add margin if it's a single button */
+}
+
+
+.overlay-screen button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.overlay-screen button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Button theme styles (action/secondary) */
+.overlay-screen .action-button {
+  background-color: var(--accent-color);
+  color: var(--accent-text);
+  border: none;
+}
+.overlay-screen .action-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.overlay-screen .secondary-button {
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+.overlay-screen .secondary-button:hover {
+  background-color: var(--accent-color);
+  color: var(--accent-text);
+}
+
+/* Tab Switch Warning Style (also used in ResultScreen.css if needed) */
+.switched-tab-warning {
+    color: orange;
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(255, 165, 0, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 165, 0, 0.2);
+}
+
+/* Responsive for Overlays */
+@media (max-width: 600px) {
+     .overlay-screen { padding: 1.5rem 1rem; }
+     .overlay-screen h2 { font-size: 1.6rem; }
+     .overlay-screen p { font-size: 1rem; }
+    /* Stack buttons in groups */
+    .button-group {
+        flex-direction: column;
+        align-items: stretch; /* Make buttons full width */
+        gap: 0.8rem;
+        width: 90%; /* Limit width slightly */
+    }
+    /* Ensure all overlay buttons are full width on mobile */
+    .overlay-screen button {
+        width: 100%;
+        max-width: none; /* Remove max-width on mobile */
+        flex-grow: 1; /* Allow growth to fill container */
+    }
+    .switched-tab-warning { font-size: 0.9rem; }
+}
+
+/* Loading State Style */
+.loading-state {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    padding: 3rem;
+    text-align: center;
+}
+
+/* Tab Switch Warning Modal Styles */
+.warning-modal-content {
+  background-color: var(--modal-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: var(--modal-shadow);
+  max-width: 90%;
+  width: 450px; /* Slightly smaller modal */
+  text-align: center;
+  border-top: 5px solid orange; /* Warning color border */
+  animation: zoomInModal 0.3s ease-out;
+  /* Need position relative if backdrop click relies on stopPropagation inside */
+  position: relative;
+  z-index: 1001; /* Ensure content is above backdrop */
+}
+
+.warning-modal-content .warning-icon {
+    font-size: 3rem;
+    color: orange;
+    margin-bottom: 1rem;
+    display: block; /* Ensure it takes space */
+}
+
+.warning-modal-content h3 {
+    color: orange;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.warning-modal-content p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.warning-modal-content button {
+    /* Uses action-button styles */
+     min-width: 120px;
+     margin: 0 auto; /* Center button */
+     display: block;
+}

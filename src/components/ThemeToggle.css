@@ -1,0 +1,36 @@
+/* src/components/ThemeToggle.css */
+.theme-toggle-button {
+    background: none;
+    border: none;
+    color: var(--header-text); /* Use header text color */
+    cursor: pointer;
+    font-size: 1.5rem; /* Adjust icon size */
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+    /* Ensure it doesn't shrink excessively in flex layout */
+    flex-shrink: 0;
+  }
+  
+  .theme-toggle-button:hover,
+  .theme-toggle-button:focus {
+    color: var(--accent-color); /* Use accent color on hover/focus */
+    background-color: rgba(128, 128, 128, 0.1); /* Subtle background */
+    outline: none;
+  }
+  
+  .theme-toggle-button:active {
+      transform: scale(0.9);
+  }
+  
+  /* Adjust position if needed within Header.css */
+  @media (max-width: 600px) {
+      /* Example: Ensure it's centered when header stacks */
+      .theme-toggle-button {
+          margin-top: 0.5rem; /* Add some space above when stacked */
+          /* Centering is handled by the flex container (.app-header) */
+      }
+  }

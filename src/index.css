@@ -1,0 +1,165 @@
+/* src/index.css */
+
+/* Define color variables for both themes */
+:root {
+  /* Light Theme (Default - can be overridden by data-theme='dark') */
+  --background-primary: #ffffff;
+  --background-secondary: #f0f0f0;
+  --text-primary: #1a1a1a;
+  --text-secondary: #444444;
+  --accent-color: #007bff; /* Blue accent */
+  --accent-text: #ffffff;
+  --header-bg: #f8f9fa;
+  --header-text: #343a40;
+  --footer-bg: #f8f9fa;
+  --footer-text: #6c757d;
+  --border-color: #dee2e6;
+  --button-bg: #007bff;
+  --button-text: #ffffff;
+  --button-hover-bg: #0056b3;
+  --icon-color: #495057;
+  --icon-hover-color: #007bff;
+  --correct-bg: #d4edda; /* Light green */
+  --correct-text: #155724;
+  --incorrect-bg: #f8d7da; /* Light red */
+  --incorrect-text: #721c24;
+  --selected-bg: #fff3cd; /* Light yellow */
+  --selected-text: #856404;
+  --modal-bg: rgba(255, 255, 255, 0.95);
+  --modal-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --trophy-gold: #ffd700;
+  --trophy-silver: #c0c0c0;
+  --trophy-bronze: #cd7f32;
+
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --background-primary: #121212;
+  --background-secondary: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #aaaaaa;
+  --accent-color: #bb86fc; /* Purple accent for dark */
+  --accent-text: #121212;
+  --header-bg: #1e1e1e;
+  --header-text: #e0e0e0;
+  --footer-bg: #1e1e1e;
+  --footer-text: #aaaaaa;
+  --border-color: #333333;
+  --button-bg: #bb86fc;
+  --button-text: #121212;
+  --button-hover-bg: #a763fa;
+  --icon-color: #aaaaaa;
+  --icon-hover-color: #bb86fc;
+  --correct-bg: #1e4620; /* Dark green */
+  --correct-text: #a6d9a4;
+  --incorrect-bg: #58151c; /* Dark red */
+  --incorrect-text: #f5c6cb;
+  --selected-bg: #4d421a; /* Dark yellow */
+  --selected-text: #ffeeba;
+  --modal-bg: rgba(30, 30, 30, 0.95);
+  --modal-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  /* Trophies can stay the same or adjust if needed */
+
+  color-scheme: dark;
+}
+
+/* Basic Reset and Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+  flex-grow: 1; /* Allows main content to take up available space */
+  padding: 2rem;
+  max-width: 900px; /* Max width for content */
+  width: 100%;
+  margin: 1rem auto; /* Center the content, added top/bottom margin */
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  align-items: center; /* Added */
+  justify-content: center; /* Added */
+}
+
+/* General Button Style (can be overridden) */
+button {
+  font-family: inherit;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+  transition: background-color 0.25s, border-color 0.25s, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg);
+}
+ button:focus,
+ button:focus-visible {
+   outline: 4px auto -webkit-focus-ring-color; /* Keep focus indicator */
+ }
+
+button:active {
+    transform: scale(0.98); /* Slight shrink on click */
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--icon-hover-color); /* Use icon hover for consistency or define --link-hover-color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+   margin-bottom: 1rem; /* Default spacing */
+}
+
+p {
+   color: var(--text-secondary);
+   line-height: 1.6;
+}
